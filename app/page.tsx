@@ -1,5 +1,6 @@
-let name = "Nathaniel Cowan";
+let a = true;
+let b = false;
 
 export default function Home() {
-  return <div>{console.log(name)}</div>;
+  return <div>{(console.log(typeof a), console.log(b))}</div>;
 }
