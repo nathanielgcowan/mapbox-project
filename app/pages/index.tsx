@@ -1,6 +1,9 @@
+import React from "react";
 // pages/index.js or app/page.tsx
 import dynamic from "next/dynamic";
 
+
+const
 // Dynamically import the compoent and disable SSR
 const DynamicMapComponent = dynamic(
   () => import("../components/MapComponent"),
